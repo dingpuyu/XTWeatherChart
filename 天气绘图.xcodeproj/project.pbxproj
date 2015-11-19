@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		2AD5771D1BB3FF3D004ACDD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5771C1BB3FF3D004ACDD3 /* main.m */; };
 		2AD577201BB3FF3D004ACDD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5771F1BB3FF3D004ACDD3 /* AppDelegate.m */; };
-		2AD577231BB3FF3D004ACDD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD577221BB3FF3D004ACDD3 /* ViewController.m */; };
 		2AD577261BB3FF3D004ACDD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD577241BB3FF3D004ACDD3 /* Main.storyboard */; };
 		2AD577281BB3FF3D004ACDD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD577271BB3FF3D004ACDD3 /* Images.xcassets */; };
 		2AD5772B1BB3FF3D004ACDD3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD577291BB3FF3D004ACDD3 /* LaunchScreen.xib */; };
 		2AD577371BB3FF3D004ACDD3 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD577361BB3FF3D004ACDD3 /* ____Tests.m */; };
-		2AD577421BB409C5004ACDD3 /* XTLineChartVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD577411BB409C5004ACDD3 /* XTLineChartVIew.m */; };
 		2AD577441BB41061004ACDD3 /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 2AD577431BB41061004ACDD3 /* weather.json */; };
-		2AD577471BB4108F004ACDD3 /* ChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD577461BB4108F004ACDD3 /* ChartPoint.m */; };
-		2AD5774A1BB418B1004ACDD3 /* NSArray+LocalPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD577491BB418B1004ACDD3 /* NSArray+LocalPrint.m */; };
-		2AD5774D1BB41F39004ACDD3 /* NSDate+LYZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5774C1BB41F39004ACDD3 /* NSDate+LYZExtension.m */; };
+		BAEF006D1BFD703A001323D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEF00611BFD703A001323D1 /* ViewController.m */; };
+		BAEF006E1BFD703A001323D1 /* ChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEF00641BFD703A001323D1 /* ChartPoint.m */; };
+		BAEF006F1BFD703A001323D1 /* NSArray+LocalPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEF00671BFD703A001323D1 /* NSArray+LocalPrint.m */; };
+		BAEF00701BFD703A001323D1 /* NSDate+LYZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEF00691BFD703A001323D1 /* NSDate+LYZExtension.m */; };
+		BAEF00711BFD703A001323D1 /* XTLineChartVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEF006C1BFD703A001323D1 /* XTLineChartVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,23 +37,23 @@
 		2AD5771C1BB3FF3D004ACDD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AD5771E1BB3FF3D004ACDD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AD5771F1BB3FF3D004ACDD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2AD577211BB3FF3D004ACDD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2AD577221BB3FF3D004ACDD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2AD577251BB3FF3D004ACDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AD577271BB3FF3D004ACDD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2AD5772A1BB3FF3D004ACDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2AD577301BB3FF3D004ACDD3 /* 天气绘图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天气绘图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD577351BB3FF3D004ACDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AD577361BB3FF3D004ACDD3 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
-		2AD577401BB409C5004ACDD3 /* XTLineChartVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLineChartVIew.h; sourceTree = "<group>"; };
-		2AD577411BB409C5004ACDD3 /* XTLineChartVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLineChartVIew.m; sourceTree = "<group>"; };
 		2AD577431BB41061004ACDD3 /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
-		2AD577451BB4108F004ACDD3 /* ChartPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartPoint.h; sourceTree = "<group>"; };
-		2AD577461BB4108F004ACDD3 /* ChartPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartPoint.m; sourceTree = "<group>"; };
-		2AD577481BB418B1004ACDD3 /* NSArray+LocalPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LocalPrint.h"; sourceTree = "<group>"; };
-		2AD577491BB418B1004ACDD3 /* NSArray+LocalPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LocalPrint.m"; sourceTree = "<group>"; };
-		2AD5774B1BB41F39004ACDD3 /* NSDate+LYZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LYZExtension.h"; sourceTree = "<group>"; };
-		2AD5774C1BB41F39004ACDD3 /* NSDate+LYZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LYZExtension.m"; sourceTree = "<group>"; };
+		BAEF00601BFD703A001323D1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAEF00611BFD703A001323D1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAEF00631BFD703A001323D1 /* ChartPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartPoint.h; sourceTree = "<group>"; };
+		BAEF00641BFD703A001323D1 /* ChartPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartPoint.m; sourceTree = "<group>"; };
+		BAEF00661BFD703A001323D1 /* NSArray+LocalPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LocalPrint.h"; sourceTree = "<group>"; };
+		BAEF00671BFD703A001323D1 /* NSArray+LocalPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LocalPrint.m"; sourceTree = "<group>"; };
+		BAEF00681BFD703A001323D1 /* NSDate+LYZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LYZExtension.h"; sourceTree = "<group>"; };
+		BAEF00691BFD703A001323D1 /* NSDate+LYZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LYZExtension.m"; sourceTree = "<group>"; };
+		BAEF006B1BFD703A001323D1 /* XTLineChartVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLineChartVIew.h; sourceTree = "<group>"; };
+		BAEF006C1BFD703A001323D1 /* XTLineChartVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLineChartVIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,23 +95,11 @@
 		2AD577191BB3FF3D004ACDD3 /* 天气绘图 */ = {
 			isa = PBXGroup;
 			children = (
-				2AD577481BB418B1004ACDD3 /* NSArray+LocalPrint.h */,
-				2AD577491BB418B1004ACDD3 /* NSArray+LocalPrint.m */,
-				2AD5771E1BB3FF3D004ACDD3 /* AppDelegate.h */,
-				2AD5771F1BB3FF3D004ACDD3 /* AppDelegate.m */,
-				2AD577211BB3FF3D004ACDD3 /* ViewController.h */,
-				2AD577221BB3FF3D004ACDD3 /* ViewController.m */,
+				BAEF005E1BFD703A001323D1 /* Classes */,
 				2AD577241BB3FF3D004ACDD3 /* Main.storyboard */,
-				2AD577401BB409C5004ACDD3 /* XTLineChartVIew.h */,
-				2AD577411BB409C5004ACDD3 /* XTLineChartVIew.m */,
-				2AD577451BB4108F004ACDD3 /* ChartPoint.h */,
-				2AD577461BB4108F004ACDD3 /* ChartPoint.m */,
 				2AD577271BB3FF3D004ACDD3 /* Images.xcassets */,
 				2AD577291BB3FF3D004ACDD3 /* LaunchScreen.xib */,
-				2AD577431BB41061004ACDD3 /* weather.json */,
 				2AD5771A1BB3FF3D004ACDD3 /* Supporting Files */,
-				2AD5774B1BB41F39004ACDD3 /* NSDate+LYZExtension.h */,
-				2AD5774C1BB41F39004ACDD3 /* NSDate+LYZExtension.m */,
 			);
 			path = "天气绘图";
 			sourceTree = "<group>";
@@ -119,6 +107,9 @@
 		2AD5771A1BB3FF3D004ACDD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2AD5771E1BB3FF3D004ACDD3 /* AppDelegate.h */,
+				2AD5771F1BB3FF3D004ACDD3 /* AppDelegate.m */,
+				2AD577431BB41061004ACDD3 /* weather.json */,
 				2AD5771B1BB3FF3D004ACDD3 /* Info.plist */,
 				2AD5771C1BB3FF3D004ACDD3 /* main.m */,
 			);
@@ -140,6 +131,55 @@
 				2AD577351BB3FF3D004ACDD3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAEF005E1BFD703A001323D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF005F1BFD703A001323D1 /* Controller */,
+				BAEF00621BFD703A001323D1 /* Model */,
+				BAEF00651BFD703A001323D1 /* Other */,
+				BAEF006A1BFD703A001323D1 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BAEF005F1BFD703A001323D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF00601BFD703A001323D1 /* ViewController.h */,
+				BAEF00611BFD703A001323D1 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAEF00621BFD703A001323D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF00631BFD703A001323D1 /* ChartPoint.h */,
+				BAEF00641BFD703A001323D1 /* ChartPoint.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAEF00651BFD703A001323D1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF00661BFD703A001323D1 /* NSArray+LocalPrint.h */,
+				BAEF00671BFD703A001323D1 /* NSArray+LocalPrint.m */,
+				BAEF00681BFD703A001323D1 /* NSDate+LYZExtension.h */,
+				BAEF00691BFD703A001323D1 /* NSDate+LYZExtension.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BAEF006A1BFD703A001323D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF006B1BFD703A001323D1 /* XTLineChartVIew.h */,
+				BAEF006C1BFD703A001323D1 /* XTLineChartVIew.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,13 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD577231BB3FF3D004ACDD3 /* ViewController.m in Sources */,
-				2AD577421BB409C5004ACDD3 /* XTLineChartVIew.m in Sources */,
+				BAEF006D1BFD703A001323D1 /* ViewController.m in Sources */,
+				BAEF00711BFD703A001323D1 /* XTLineChartVIew.m in Sources */,
 				2AD577201BB3FF3D004ACDD3 /* AppDelegate.m in Sources */,
+				BAEF00701BFD703A001323D1 /* NSDate+LYZExtension.m in Sources */,
 				2AD5771D1BB3FF3D004ACDD3 /* main.m in Sources */,
-				2AD5774D1BB41F39004ACDD3 /* NSDate+LYZExtension.m in Sources */,
-				2AD5774A1BB418B1004ACDD3 /* NSArray+LocalPrint.m in Sources */,
-				2AD577471BB4108F004ACDD3 /* ChartPoint.m in Sources */,
+				BAEF006E1BFD703A001323D1 /* ChartPoint.m in Sources */,
+				BAEF006F1BFD703A001323D1 /* NSArray+LocalPrint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
